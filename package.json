@@ -12,7 +12,6 @@
   },
   "license": "ISC",
   "type": "commonjs",
-  "main": "index.js",
   "browserslist": [
     "last 10 versions",
     "> 0.5%",
