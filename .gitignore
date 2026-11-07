@@ -1,1 +1,4 @@
 node_modules/
+.parcel-cache/
+/src/styles/sass/
+/src/styles/style.comp.css
