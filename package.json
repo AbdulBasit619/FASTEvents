@@ -18,7 +18,9 @@
     "build": "parcel build index.html --dist-dir ./dir"
   },
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "^1.108.1"
   },
   "allowScripts": {
     "lmdb@2.8.5": true,
