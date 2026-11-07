@@ -1,0 +1,29 @@
+{
+  "name": "fastevents",
+  "version": "1.0.0",
+  "description": "Website for University Events",
+  "homepage": "https://github.com/AbdulBasit619/FASTEvents#readme",
+  "default": "index.html",
+  "bugs": {
+    "url": "https://github.com/AbdulBasit619/FASTEvents/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulBasit619/FASTEvents.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "allowScripts": {
+    "lmdb@2.8.5": true,
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.22": true,
+    "msgpackr-extract@3.0.7": true
+  }
+}
