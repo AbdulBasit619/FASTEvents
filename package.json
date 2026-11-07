@@ -19,15 +19,15 @@
     "not dead"
   ],
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dir --public-url ./",
     "compile:sass": "sass src/styles/sass/main.scss src/styles/style.comp.css --no-source-map",
     "prefix:css": "postcss src/styles/style.comp.css --use autoprefixer --no-map -o src/styles/style.css",
     "build:css": "run-s compile:sass prefix:css",
     "watch:sass": "sass src/styles/sass/main.scss src/styles/style.comp.css --watch --no-source-map",
     "watch:prefix": "postcss src/styles/style.comp.css --use autoprefixer --no-map -o src/styles/style.css --watch",
-    "dev-server": "parcel index.html",
-    "start": "run-p dev-server watch:sass watch:prefix",
-    "build:parcel": "parcel build index.html --dist-dir ./dir --public-url ./",
-    "build": "run-s build:css build:parcel"
+    "dev": "run-p start watch:sass watch:prefix",
+    "release": "run-s build:css build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
