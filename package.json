@@ -1,9 +1,8 @@
 {
   "name": "fastevents",
   "version": "1.0.0",
-  "description": "Website for University Events",
+  "description": "University Events Website",
   "homepage": "https://github.com/AbdulBasit619/FASTEvents#readme",
-  "default": "index.html",
   "bugs": {
     "url": "https://github.com/AbdulBasit619/FASTEvents/issues"
   },
@@ -11,11 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/AbdulBasit619/FASTEvents.git"
   },
+  "license": "ISC",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dir"
   },
   "devDependencies": {
     "parcel": "^2.16.4"
