@@ -1,7 +1,0 @@
-.container {
-  max-width: var(--mxw--desktop_large);
-  margin: 0 auto;
-
-  background-color: #111;
-  height: 100rem;
-}
