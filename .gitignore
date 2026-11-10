@@ -1,21 +1,11 @@
-# Dependencies
 node_modules/
-
-# Parcel
 .parcel-cache/
 dist/
 
-# Sass (private source + intermediate file)
-/src/styles/sass/
-/src/styles/style.comp.css
-.sass-cache/
-*.css.map
-
-# Secrets and logs
+# compiled by sass (each member compiles locally)
+src/styles/sass
 .env
 .env.*
 *.log
-
-# OS junk
 .DS_Store
 Thumbs.db
