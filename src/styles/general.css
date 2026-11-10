@@ -1,0 +1,51 @@
+:root {
+  /* COLORS DARK MODE */
+  --color-primary: #001410;
+  --color-secondary: #d3f8bf;
+  --color-accent1: #5158bb;
+  --color-accent2: #ff331f;
+  --color-gray_bg: #212529;
+  --color-gray_txt: #cfc4d4;
+  --color--white: #ffffff;
+
+  /* COLORS LIGHT MODE */
+
+  /* FONT FACES */
+  --ff--headings: 'Comfortaa', display, sans-serif;
+  --ff--body: 'Rubik', calibri, sans-serif;
+
+  /* FONT SIZES */
+  --fsz--p: 1.6rem;
+
+  /* FONT WEIGHTS */
+  --fw--normal: 400;
+  --fw--bold: 600;
+
+  /* LINE HEIGHTS */
+  --lh--normal: 1.6;
+  --lh--headings: 1.2;
+
+  /* BORDER RADII */
+  --br--default: 4px;
+
+  /* CONTAINER WIDTHS */
+  --mxw--desktop_large: 144rem;
+}
+
+/* GLOBAL RESET */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
